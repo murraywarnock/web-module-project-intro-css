@@ -1,0 +1,151 @@
+/* This is out CSS Reset 
+The CSS Reset is used to reset the default styling set by the browser
+*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+/* 	border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+/*General Styles*/
+
+*{
+    box-sizing: border-box; /* it tells elements that they need to respect the width we've given it using this rule;*/ 
+     max-width:100%; /* this tells elements to never become bigger than their parent*/ 
+    /* border: 1px solid gray;*/
+   }
+  
+  html{
+    font-size: 62.5%; /* the browsers default font-size is 16px and by setting html to 62.5% then 1 rem = 10px. Since %s are a scalable unit this gives the user more control over their font size*/
+    font-family: 'Courier New', Courier, monospace;
+    }
+  
+  body{
+    
+    font-size:1.6rem;
+    line-height: 1.5; /* doesnt need a unit of measure; it is the font size * line height value*/
+    color: #4f4f4f;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  p{
+    /* width: 75%; */
+    font-size: 2rem;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    letter-spacing: 3px;
+  }
+  
+  /* section{
+    padding: 4% 0;
+    width:50% 
+  }*/
+  *******END GENERAL*******
+  @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&family=Stick&display=swap');
+  .box {
+      padding: 2%;
+  }
+  .box a {
+    width: 15%;
+    height: 11rem;
+    display: inline-block;
+    border-radius: 25px;
+    border 1px solid black;
+    margin: 0 8.5%;
+    padding: 2rem 3.5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: center
+    }
+    .box1 {
+        background-color: #ff6666;
+    }
+
+   .box2 {
+    background-color: #66d9ff;
+    }
+
+    .box3 {
+        background-color: #ffc266;
+    }
+
+    section.top  {
+        display: inline-block;
+    }
+
+    #logo {
+        height: 30rem;
+        width:  30rem;
+        border-radius: 90%;
+    }
+
+    .caption {
+        padding: 0 50rem;
+        align-items: center;
+        text-align: center;
+    }
+    .caption img {
+        height 15rem;
+        width: 15rem;
+    }
+
+    p.blah {
+        background-color: #cc8800;
+        color: white;
+        text-align: center;
+        padding: 3rem 5%;
+        color: white;
+    }
+
+    .head1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4rem;
+        text-align: center;
+    }
+    .loud {
+        font-weight: bold;
+    }
+    .range {
+        height: 100px;
+        width: 100%                                     
+    }
